@@ -1,4 +1,4 @@
-FROM rust:1.38.0 as builder
+FROM rust:1.52.1 as builder
 WORKDIR     /rust
 
 # Download the cargo target
